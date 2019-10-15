@@ -1,0 +1,142 @@
+body{
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.win{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    display: none;
+}
+
+
+
+.board-container tbody {
+    align-self: auto;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+td {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    outline: 2px solid rgb(26, 26, 26);
+    background-color:rgb(199, 199, 199);
+}
+
+
+td:hover {
+    background-color: rgba(247, 183, 183, 0.637);
+}
+
+
+
+.timer{
+    width: 10%;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto
+}
+
+
+
+
+.header{
+ text-align: center;
+ color: black
+}
+
+.safe-btn{
+    display: block;
+    border : 3px  rgba(247, 183, 183, 0.637) solid;
+    background-color:  rgb(235, 228, 228);
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 10px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.restart {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.levels button {
+    display: block;
+    background-color:  rgb(235, 228, 228);
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 10px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+[data-num="1"] {
+    color: rgb(46, 122, 245);
+}
+
+[data-num="2"] {
+    color: blue;
+}
+
+[data-num="3"] {
+    color: rgb(212, 26, 129);
+}
+
+[data-num="4"] {
+    color: rgb(90, 24, 92);
+}
+
+[data-num="5"] {
+    color: rgb(129, 179, 129);
+}
+
+[data-num="6"] {
+    color: rgb(168, 42, 10);
+}
+
+[data-num="7"] {
+    color: rgba(153, 13, 71, 0.788);
+}
+
+[data-num="8"] {
+    color: rgb(165, 0, 0);
+}
+
+[data-num="9"] {
+    color: rgb(92, 24, 24);
+}
+
+[data-num="10"] {
+    color: rgb(171, 36, 175);
+}
+
+[data-num="11"] {
+    color: rgb(24, 92, 41);
+}
+
+[data-num="12"] {
+    color: rgb(139, 170, 126);
+}

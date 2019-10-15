@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mine Sweeper Game</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        body {
+            background-image: url("img/1.jpg");
+        }
+    </style>
+</head>
+<h1 class="header">Minesweeper Game</h1>
+
+
+<body onload="init()">
+    <div class="win">YOU WON!!</div>
+    <div>
+    <button class="restart" onclick="init()">😎</button>
+    <button class="safe-btn" onclick="setSafeClick()">Safe Click</button></div>
+    <div class="timer"></div>
+    <div class="board-container" align="center"></div>
+    <div class="levels">
+        <button onclick="setLevel(this)">Easy</button>
+        <button onclick="setLevel(this)">Medium</button>
+        <button onclick="setLevel(this)">Hard</button>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
